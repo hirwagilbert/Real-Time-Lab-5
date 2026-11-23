@@ -1,0 +1,17 @@
+experiment,config,failures,mtbf_emp_h,mtbf_ana_h,mtbf_dev_pct,mttr_emp_h,avail_emp,avail_ana
+transient faults,Simplex,5933,1010.3,1000.0,1.03,1.0,0.999011,0.999001
+transient faults,TMR,16,374999.0,333554.7,12.43,1.0,0.999997,0.999997
+permanent faults,Simplex,5834,1004.5,1000.0,0.45,24.0,0.976664,0.976562
+permanent faults,TMR,805,7441.0,7385.4,0.75,12.42,0.998334,0.998378
+watchdog timeout sweep,timeout 1 h,,1004.5,1000.0,,1.374,0.998655,0.998502
+watchdog timeout sweep,timeout 5 h,,1004.5,1000.0,,5.386,0.995059,0.99453
+watchdog timeout sweep,timeout 10 h,,1004.5,1000.0,,10.374,0.990091,0.989609
+watchdog timeout sweep,timeout 20 h,,1004.5,1000.0,,20.37,0.978907,0.979912
+Task 1 diverse rates,"(0.001, 0.001, 0.001)",271,7367.2,7385.4,-0.25,12.89,0.998254,
+Task 1 diverse rates,"(0.0005, 0.001, 0.0015)",243,8218.2,8068.4,1.86,12.22,0.998515,
+Task 1 diverse rates,"(0.0002, 0.001, 0.0018)",229,8721.3,9428.8,-7.5,12.36,0.998584,
+Task 1 diverse rates,"(0.0001, 0.0001, 0.0028)",64,31237.6,39135.1,-20.18,12.44,0.999602,
+Task 3 watchdog FP,timeout 0.5 h,92,,,,,FP=2433,
+Task 3 watchdog FP,timeout 1.0 h,92,,,,,FP=882,
+Task 3 watchdog FP,timeout 2.0 h,92,,,,,FP=109,
+Task 3 watchdog FP,timeout 5.0 h,92,,,,,FP=1,
